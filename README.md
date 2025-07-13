@@ -1,42 +1,47 @@
+# 🛍️ Product Name Extractor
 
-## Installation
+The **Product Name Extractor** is a Natural Language Processing (NLP) based web app built using **Streamlit** that automatically identifies and extracts product names from unstructured text such as customer reviews, social media posts, or product feedback. This tool is ideal for e-commerce platforms, customer support systems, and market analysis tools where detecting product mentions is essential.
 
-To get started with the project, follow these steps:
+[🔗 Live Demo (optional)](#)  
+📍 GitHub: [https://github.com/Hanush0112/Product-Name-Extraction](https://github.com/Hanush0112/Product-Name-Extraction)
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/Product-Name-Extraction.git
-.git
-    cd ner-bert-project
-    ```
+---
 
-2. **Create a virtual environment and activate it:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use: venv\Scripts\activate
-    ```
+## 🚀 Features
 
+- ✅ Web app interface using **Streamlit**
+- ✅ Extracts product names using NLP and rule-based logic
+- ✅ Supports text input and file upload
+- ✅ Clean UI for quick testing and prototyping
+- ✅ Lightweight, easy to deploy anywhere
 
+---
 
-3. **Prepare the custom dataset:**
-   - Ensure that your dataset is saved in CSV format in the `data` directory.
-   - The dataset should contain the necessary fields for training the model.
+## 🧠 Use Cases
 
-## Fine-tuning the BERT model
+- 🛒 **E-commerce**: Tagging customer reviews with product mentions
+- 💬 **Social media analytics**: Track product trends
+- 🤖 **Customer support**: Auto-detect mentioned products in chats
+- 📈 **Market research**: Discover what products are gaining attention
 
-To fine-tune the BERT model on your custom dataset, run the `app.py` script:
+---
+
+## ⚙️ Technologies Used
+
+| Technology        | Purpose                                 |
+|-------------------|------------------------------------------|
+| Python            | Core programming language                |
+| Streamlit         | Web app framework                        |
+| spaCy             | NLP engine with Named Entity Recognition |
+| Regex             | Rule-based pattern extraction            |
+| Pandas            | Data handling and preprocessing          |
+
+---
+
+## 🛠️ Installation
+
+### 🔹 1. Clone the Repository
+
 ```bash
-python train.py
-```
-
-4. **Predicting the product names from the product reviews**
-   predict the product names from the product reviews using the created model just run the python file 'prediction.py'
-
-```bash
-python prediction.py
-```
-
-5. **To create a webpage using a streamlit application**
-   ```bash
-   streamlit run streamlit.py
-   ```
+git clone https://github.com/Hanush0112/Product-Name-Extraction.git
+cd Product-Name-Extraction
